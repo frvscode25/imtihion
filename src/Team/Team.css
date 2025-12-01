@@ -1,0 +1,104 @@
+.left h6 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+}
+
+.left h4 {
+    margin-top: 24px;
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #232536;
+}
+
+.left p {
+    margin-top: 16px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+.Team {
+    background-color: #F4F0F8;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+.l {
+    display: flex;
+    padding-top: 84px;
+    padding-left: 85px;
+    gap: 40px;
+}
+
+
+/* ----------------------- */
+/*      RESPONSIVE         */
+/* ----------------------- */
+
+@media (max-width: 992px) {
+    .l {
+        padding-left: 40px;
+        padding-top: 60px;
+        gap: 20px;
+    }
+
+    .left h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .left p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .l {
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    .left h6 {
+        font-size: 14px;
+    }
+
+    .left h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .left p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .l {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .left h4 {
+        font-size: 20px;
+    }
+
+    .left p {
+        font-size: 13px;
+    }
+}

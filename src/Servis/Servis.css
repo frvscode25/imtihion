@@ -1,0 +1,90 @@
+/* Asosiy stil */
+.h4 h4 {
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.P p {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4C4C4C;
+}
+
+span {
+    color: #2f4c93;
+}
+
+h5 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #232536;
+}
+
+p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #35363e;
+}
+
+/* Blog kartalari uchun asosiy effekt */
+.row>div {
+    background: #fff;
+    /* oq fon */
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effekt */
+.row>div:hover {
+    transform: translateY(-10px);
+    /* yuqoriga ko‘tariladi */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    /* soyali effekt */
+}
+
+/* Rasmni ham yumaloq qilish */
+.row>div img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/* RESPONSIVE STIL: mobil uchun */
+@media (max-width: 768px) {
+    .h4 h4 {
+        font-size: 28px;
+        line-height: 36px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    p,
+    .P p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    /* Mobilda kartalarni biroz kichraytirish */
+    .row>div {
+        padding: 10px;
+    }
+}

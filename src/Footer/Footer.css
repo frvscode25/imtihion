@@ -1,0 +1,13 @@
+.Footer{
+    background: #232536;
+    padding: 40px 0px 0px;
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+}
+ .p p{
+    color: #FFFFFF;
+ }
+ .img{
+    cursor: pointer;
+ }
